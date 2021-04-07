@@ -1,0 +1,23 @@
+{
+  "name": "expressnode",
+  "description": "My sixth JavaScript project, utilizing Node, Express, and Pug to set up a server and render a personal portfolio website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephbertino/ExpressNode.git"
+  },
+  "author": "Joe Bertino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephbertino/ExpressNode/issues"
+  },
+  "homepage": "https://github.com/josephbertino/ExpressNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
