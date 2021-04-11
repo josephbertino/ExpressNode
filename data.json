@@ -6,9 +6,9 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console"],
          "live_link": "https://josephbertino.github.io/randomquote_js/",
          "github_link": "https://github.com/josephbertino/randomquote_js/tree/gh-pages",
-         "image_urls": ["../images/1_main.png",
-                        "../images/1_1.png",
-                        "../images/1_2.png"]
+         "image_urls": ["/static/images/0_main.png",
+                        "/static/images/0_1.png",
+                        "/static/images/0_2.png"]
         },
         {"id": 1,
          "project_name": "User Info Display with Pagination",
@@ -16,9 +16,9 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console"],
          "live_link": "https://josephbertino.github.io/list_with_pagination",
          "github_link": "https://github.com/josephbertino/list_with_pagination/tree/gh-pages",
-         "image_urls": ["../images/2_main.png",
-                        "../images/2_1.png",
-                        "../images/2_2.png"]
+         "image_urls": ["/static/images/1_main.png",
+                        "/static/images/1_1.png",
+                        "/static/images/1_2.png"]
         },
         {"id": 2,
          "project_name": "Interactive SWAG Order Form",
@@ -26,9 +26,9 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console", "REGEX"],
          "live_link": "https://josephbertino.github.io/interactive_form",
          "github_link": "https://github.com/josephbertino/interactive_form/tree/gh-pages",
-         "image_urls": ["../images/3_main.png",
-                        "../images/3_1.png",
-                        "../images/3_2.png"]
+         "image_urls": ["/static/images/2_main.png",
+                        "/static/images/2_1.png",
+                        "/static/images/2_2.png"]
         },
         {"id": 3,
          "project_name": "Phrase Guessing Game",
@@ -36,9 +36,9 @@
          "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
          "live_link": "https://josephbertino.github.io/phrase_guess",
          "github_link": "https://github.com/josephbertino/phrase_guess/tree/gh-pages",
-         "image_urls": ["../images/4_main.png",
-                        "../images/4_1.png",
-                        "../images/4_2.png"]
+         "image_urls": ["/static/images/3_main.png",
+                        "/static/images/3_1.png",
+                        "/static/images/3_2.png"]
         },
         {"id": 4,
          "project_name": "Public API Demonstration",
@@ -46,9 +46,9 @@
          "technologies": ["JavaScript", "Node", "Express", "Pug"],
          "live_link": "https://josephbertino.github.io/public_api",
          "github_link": "https://github.com/josephbertino/public_api/tree/gh-pages",
-         "image_urls": ["../images/5_main.png",
-                        "../images/5_1.png",
-                        "../images/5_2.png"]
+         "image_urls": ["/static/images/4_main.png",
+                        "/static/images/4_1.png",
+                        "/static/images/4_2.png"]
         }
     ]
 }
