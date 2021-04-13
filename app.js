@@ -1,11 +1,10 @@
+/* Get Express into this project */
 const express = require('express');
-const path = require('path');
-
-// Import the project data
-const data = require('./data.json');
-
-/* Instantiate Express app */
 const app = express();
+
+/* Import the project data and 'path' module */
+const path = require('path');
+const data = require('./data.json');
 
 /* Set up Pug view engine */
 app.set('view engine', 'pug');

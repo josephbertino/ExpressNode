@@ -18,3 +18,14 @@ You'll use Node.js and Express to:
     Set up a server to serve the project
 
 After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
+
+// {"id": 5,
+//  "project_name": "Personal Project Portfolio",
+//  "description": "The sixth project along my journey to Full Stack JavaScript mastery is this very portfolio website you are visiting. I am using Node, Express, and Pug to render these pages with both dynamic and static content. I've also written middleware to handle all routing and any 404 or server-side errors. Enjoy the self-reference!",
+//  "technologies": ["JavaScript", "Node", "Express", "Pug"],
+//  "live_link": "https://josephbertino.github.io/ExpressNode",
+//  "github_link": "https://github.com/josephbertino/ExpressNode/tree/gh-pages",
+//  "image_urls": ["/static/images/5_main.png",
+//                 "/static/images/5_1.png",
+//                 "/static/images/5_2.png"]
+// }

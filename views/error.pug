@@ -4,9 +4,11 @@ block content
 
     h1 We have encountered an error serving up this page for you!
     h2 #{err.status}: #{err.message}
-    pre= err.stack
+    h4 Stack Trace
+    .errStack
+        pre= err.stack
 
-    //Link Back to Homepage
+    br
     a(href=`/`)
         img.thumbnail(src=`/static/images/backthumb.jpg`, alt=`Finger Pointing Thumbnail`, style="width:210px;height:128px;")
         h4 Take Me Back Home!
