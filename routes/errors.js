@@ -18,10 +18,10 @@ const globalError = (err, req, res, next) => {
     
     // Render the appropriate error handling page
     if (res.statusCode === 404) {
-        res.render('page-not-found', { err });
+        return res.render('page-not-found', { err });
     }
     else {
-        res.render('error', { err });
+        return res.render('error', { err });
     }
 };
 
