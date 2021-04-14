@@ -3,11 +3,11 @@ const express = require('express');
 const router = express.Router();
 
 /* Import project data */
-const data = require('../data.json');
+const { projects } = require('../data.json');
 
 /* Render the 'index' page */
 router.get('/', (req, res) => {
-    res.locals.projects = data.projects;
+    res.locals.projects = projects;
     res.render('index');
 });
 

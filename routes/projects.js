@@ -3,9 +3,9 @@ const express = require('express');
 const router = express.Router();
 
 /* Import project data */
-const data = require('../data.json');
+const { projects } = require('../data.json');
 
-/* Redirect to '/' if the route is simply '/projects' */
+/* Redirect '/projects' to '/' */
 router.get('/projects', (req, res) => {
     return res.redirect('/');
 })
@@ -13,10 +13,9 @@ router.get('/projects', (req, res) => {
 /* Dynamically render the /projects routes based on project id */
 router.get('/projects/:id', (req, res, next) => {
     const id = +req.params.id;
-    
     // Only render project route if the project id is valid
-    if (Number.isInteger(id) && id < data.projects.length && id > -1) {
-        const project = data.projects[req.params.id];
+    if (projects[id]) {
+        const project = projects[id];
         return res.render('project', { project });
     }
     // Otherwise throw a 404 error to the Global Error Handling middleware

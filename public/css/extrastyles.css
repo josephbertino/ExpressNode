@@ -20,6 +20,11 @@
   margin-top: 0;
 }
 
+/*
+  The .glow-on-hover styles below were adopted from
+  user "Kocsten" at CodePen
+  https://codepen.io/kocsten/pen/rggjXp
+*/
 .glow-on-hover {
   margin: auto 0 5px 0;
   padding: 0.85em 1em;

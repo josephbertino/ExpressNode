@@ -6,6 +6,7 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console"],
          "live_link": "https://josephbertino.github.io/randomquote_js/",
          "github_link": "https://github.com/josephbertino/randomquote_js/tree/gh-pages",
+         "thumbnail_img": "/static/images/0_main.png",
          "image_urls": ["/static/images/0_main.png",
                         "/static/images/0_1.png",
                         "/static/images/0_2.png"]
@@ -16,6 +17,7 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console"],
          "live_link": "https://josephbertino.github.io/list_with_pagination",
          "github_link": "https://github.com/josephbertino/list_with_pagination/tree/gh-pages",
+         "thumbnail_img": "/static/images/1_main.png",
          "image_urls": ["/static/images/1_main.png",
                         "/static/images/1_1.png",
                         "/static/images/1_2.png"]
@@ -26,6 +28,7 @@
          "technologies": ["JavaScript", "HTML", "CSS", "Debugger Console", "regex"],
          "live_link": "https://josephbertino.github.io/interactive_form",
          "github_link": "https://github.com/josephbertino/interactive_form/tree/gh-pages",
+         "thumbnail_img": "/static/images/2_main.png",
          "image_urls": ["/static/images/2_main.png",
                         "/static/images/2_1.png",
                         "/static/images/2_2.png"]
@@ -36,6 +39,7 @@
          "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
          "live_link": "https://josephbertino.github.io/phrase_guess",
          "github_link": "https://github.com/josephbertino/phrase_guess/tree/gh-pages",
+         "thumbnail_img": "/static/images/3_main.png",
          "image_urls": ["/static/images/3_main.png",
                         "/static/images/3_1.png",
                         "/static/images/3_2.png"]
@@ -46,6 +50,7 @@
          "technologies": ["JavaScript", "Asynchronous JavaScript", "API calls"],
          "live_link": "https://josephbertino.github.io/public_api",
          "github_link": "https://github.com/josephbertino/public_api/tree/gh-pages",
+         "thumbnail_img": "/static/images/4_main.png",
          "image_urls": ["/static/images/4_main.png",
                         "/static/images/4_1.png",
                         "/static/images/4_2.png"]

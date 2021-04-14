@@ -2,9 +2,8 @@
 const express = require('express');
 const app = express();
 
-/* Import the project data and 'path' module */
+/* Import the 'path' module */
 const path = require('path');
-const data = require('./data.json');
 
 /* Set up Pug view engine */
 app.set('view engine', 'pug');
