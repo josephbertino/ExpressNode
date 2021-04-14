@@ -1,31 +1,27 @@
-Project Overview
+# Project Portfolio Site with Express and Node
+Author: Joe Bertino, 2021
 
-So far you've worked with a lot of "client-side" JavaScript. Which is just an industry way of saying JavaScript in the browser. All of the JavaScript you've written for the first five projects in this Techdegree is run right in the browser. Now it's time to continue your journey out of the browser and start writing some powerful "server-side" JavaScript.
+## Description
+* Serving a website with dynamic and static content using Express, Node, and Pug templates.
+* The website highlights my portfolio of JavaScript projects completed for the Treehouse learning platform.
+* Routes (pages) served include the "Home" page, an "About Me" page, and a page for each individual project.
+* Each project page includes thumbnail screenshots from the project, and links to the live project hosted on Github Pages.
 
-In this project, you'll create a gorgeous portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch and talk a little about yourself, and a series of project pages to show off and detail at least your first five projects from this Techdegree.
+## Exceeds Expectations
 
-You'll create a JSON file to store all the data about the projects you've created.
+1) **Running with 'npm start'**: I installed the package `nodemon` to my `package.json` file, and then included the key-value pair `"start": "nodemon app.js"` in the `scripts` section of `package.json`. The server can now be launched and monitored using `npm start` from the command line.
 
-You'll use Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
+2) **Error Handling Pug templates**: I added the pug templates `error.pug` and `page-not-found.pug` to my project to handle 404 errors and server-side errors, respectively. Both pages display the error stack in a scrollable div with a red border and monospace font.
 
-You'll use Node.js and Express to:
-
-    Import the required dependencies
-    Link the JSON with the Pug templates
-    Set up routes to handle requests
-    Set up the middleware to utilize static files like CSS
-    Handle errors
-    Set up a server to serve the project
-
-After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
-
-// {"id": 5,
-//  "project_name": "Personal Project Portfolio",
-//  "description": "The sixth project along my journey to Full Stack JavaScript mastery is this very portfolio website you are visiting. I am using Node, Express, and Pug to render these pages with both dynamic and static content. I've also written middleware to handle all routing and any 404 or server-side errors. Enjoy the self-reference!",
-//  "technologies": ["JavaScript", "Node", "Express", "Pug"],
-//  "live_link": "https://josephbertino.github.io/ExpressNode",
-//  "github_link": "https://github.com/josephbertino/ExpressNode/tree/gh-pages",
-//  "image_urls": ["/static/images/5_main.png",
-//                 "/static/images/5_1.png",
-//                 "/static/images/5_2.png"]
-// }
+3) **CSS Customizations**
+* Linked my `layout.pug` template to a new stylesheet, "extraStyles.css", where I defined the styles for the following:
+  * The red box containing the error stack in the error handling Pug templates.
+  * The rainbow glowing borders for the "Live Link" and "Github Link" buttons on the project pages.
+* I changed the background color of the `nav` header to "bisque".
+* I changed the font size of `.box li` to 15em.
+* I added box shadows to a few buttons and thumbnail images:
+  * `.sidebar .thumbnail`: the picture of me in the sidebar.
+  * `.sidebar a`: the "Learn More" link to my "About" page.
+  * `.cell img`: the project image thumbnails on the home page.
+  * `.project-img`: the project image thumbnails on the project pages.
+  * `.btn-link`: The "Live" and Github links on the project pages.

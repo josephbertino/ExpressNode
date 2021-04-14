@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/josephbertino/ExpressNode#readme",
   "dependencies": {
+    "@fontsource/open-sans": "^4.2.2",
     "express": "^4.17.1",
     "http-errors": "^1.7.2",
     "nodemon": "^2.0.7",
