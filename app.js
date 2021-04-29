@@ -30,6 +30,7 @@ app.use(errorRouter.notFoundError);
 app.use(errorRouter.globalError);
 
 /* Start the app and listen on port 3000 */
-app.listen(3000, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log('Server listening on port 3000!');
 });
