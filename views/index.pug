@@ -6,7 +6,7 @@ block content
 
     h1 Joe Bertino's JavaScript Portfolio
 
-    p The purpose of this portfolio is to highlight my achievements in learning Full Stack JavaScript through the Treehouse learning platform. Please look around my website and admire my projects and progress! I am completing one lesson a month, so the next time you visit I'll have even more work to proudly showcase!
+    p The purpose of this portfolio is to highlight my achievements in learning Full Stack JavaScript through the Treehouse learning platform. Please look around my website and explore my projects and progress! I am completing one lesson a month, so the next time you visit I'll have even more work to proudly showcase!
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
@@ -14,5 +14,5 @@ block content
       each project in projects
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src=`/static/images/${project.id}_main.png`, alt=`[${project.project_name} Thumbnail]`)
+            img.thumbnail(src=`/static/images/${project.id}_main.png`, alt=`${project.project_name} Thumbnail`)
             h5= project.project_name
