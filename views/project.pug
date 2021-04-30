@@ -11,7 +11,7 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        h1 Project #{project.id + 1}: 
+        h1 Project #{project.id}: 
           u #{project.project_name}
 
         p #{project.description}
@@ -22,8 +22,9 @@ block content
 
           each tech in project.technologies
             li #{tech}
-
-        a.glow-on-hover(href=`${project.live_link}`, target="_blank") Live Demo
+        
+        // For project 6, the Live Link ought to render in this tab (since it's self-referencing)
+        a.glow-on-hover(href=`${project.live_link}`, target= project.id==6 ? null : "_blank") Live Demo
         a.glow-on-hover(href=`${project.github_link}`, target="_blank") GitHub Repo
 
     .project-img-box.box

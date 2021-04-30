@@ -12,7 +12,8 @@ router.get('/projects', (req, res) => {
 
 /* Dynamically render the /projects routes based on project id */
 router.get('/projects/:id', (req, res, next) => {
-    const id = +req.params.id;
+    // Subtract 1 because the project "id" attributes are indexed from 1
+    const id = +req.params.id - 1;
     // Only render project route if the project id is valid
     if (projects[id]) {
         const project = projects[id];
