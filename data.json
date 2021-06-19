@@ -59,6 +59,16 @@
          "image_urls": ["/static/images/6_main.png",
                         "/static/images/6_1.png",
                         "/static/images/6_2.png"]
+        },
+        {"id": 7,
+         "project_name": "React Image Gallery App",
+         "description": "This Single-Page-App (SPA), powered by React, is a simple image search tool that retrieves images from Flickr via its public developer API. The button at the top redirects you to the home page to refresh your display. Below is a text search form; you can enter any keyword or phrase and submit the form to retrieve related images. If the search yields no results you will be presented with a \"No Results Found\" screen. Otherwise you should expect to see up to 24 images related to your search. Included are three buttons with preprogrammed search phrases. These should get you rolling if you can't immediately think of something to search for!",
+         "technologies": ["React", "React Router", "Create React App", "APIs", "Yarn"],
+         "live_link": "https://josephbertino.github.io/react_gallery/",
+         "github_link": "https://github.com/josephbertino/react_gallery/",
+         "image_urls": ["/static/images/7_main.png",
+                        "/static/images/7_1.png",
+                        "/static/images/7_2.png"]
         }
     ]
 }
